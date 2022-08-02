@@ -4,7 +4,7 @@
 
 FROM debian:10-slim AS builder
 
-ARG KEA_VERSION=2.0.1
+ARG KEA_VERSION=2.2.0
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
